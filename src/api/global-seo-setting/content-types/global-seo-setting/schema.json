@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "global_seo_settings",
+  "info": {
+    "singularName": "global-seo-setting",
+    "pluralName": "global-seo-settings",
+    "displayName": "Global SEO Settings"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

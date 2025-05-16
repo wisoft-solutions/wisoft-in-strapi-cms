@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "footer_settings",
+  "info": {
+    "singularName": "footer-setting",
+    "pluralName": "footer-settings",
+    "displayName": "Footer Settings"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

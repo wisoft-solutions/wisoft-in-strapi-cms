@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "header_settings",
+  "info": {
+    "singularName": "header-setting",
+    "pluralName": "header-settings",
+    "displayName": "Header Settings"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}
