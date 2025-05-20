@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_services_stats_sections",
+  "info": {
+    "displayName": "StatsSection"
+  },
+  "options": {},
+  "attributes": {
+    "SectionTitle": {
+      "type": "string"
+    },
+    "Stats": {
+      "type": "component",
+      "repeatable": true,
+      "component": "services.stat-item"
+    }
+  }
+}

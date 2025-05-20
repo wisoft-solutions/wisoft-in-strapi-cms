@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_services_experience_banners",
+  "info": {
+    "displayName": "ExperienceBanner"
+  },
+  "options": {},
+  "attributes": {
+    "Years": {
+      "type": "integer"
+    },
+    "YearsLabel": {
+      "type": "string"
+    },
+    "LeftText": {
+      "type": "string"
+    },
+    "PartnerLogos": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

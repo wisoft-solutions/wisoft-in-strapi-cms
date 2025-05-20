@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "authors",
+  "collectionName": "clients",
   "info": {
-    "singularName": "author",
-    "pluralName": "authors",
-    "displayName": "Authors",
+    "singularName": "client",
+    "pluralName": "clients",
+    "displayName": "Clients",
     "description": ""
   },
   "options": {
@@ -15,10 +15,11 @@
     "Name": {
       "type": "string"
     },
-    "Bio": {
-      "type": "richtext"
+    "Slug": {
+      "type": "uid",
+      "targetField": "Name"
     },
-    "Avatar": {
+    "Logo": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -28,6 +29,17 @@
         "videos",
         "audios"
       ]
+    },
+    "Website": {
+      "type": "string"
+    },
+    "Active": {
+      "type": "boolean",
+      "default": true
+    },
+    "Featured": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

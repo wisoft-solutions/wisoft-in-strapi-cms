@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_services_hero_sections",
+  "info": {
+    "displayName": "HeroSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "text"
+    },
+    "BackgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "CTAText": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "text"
+    },
+    "FormTitle": {
+      "type": "string"
+    },
+    "TickerText": {
+      "type": "string"
+    }
+  }
+}

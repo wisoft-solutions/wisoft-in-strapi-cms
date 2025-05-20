@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_services_service_accordion_items",
+  "info": {
+    "displayName": "ServiceAccordionItem"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "ReadMoreLink": {
+      "type": "string"
+    }
+  }
+}

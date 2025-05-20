@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_services_faq_items",
+  "info": {
+    "displayName": "FaqItem"
+  },
+  "options": {},
+  "attributes": {
+    "Question": {
+      "type": "string"
+    },
+    "Answer": {
+      "type": "string"
+    }
+  }
+}

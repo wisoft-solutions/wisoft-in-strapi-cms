@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_services_differentiator_sections",
+  "info": {
+    "displayName": "DifferentiatorSection"
+  },
+  "options": {},
+  "attributes": {
+    "SectionTitle": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "services.differentiator-item"
+    }
+  }
+}

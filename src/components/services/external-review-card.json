@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_services_external_review_cards",
+  "info": {
+    "displayName": "ExternalReviewCard"
+  },
+  "options": {},
+  "attributes": {
+    "Platform": {
+      "type": "string"
+    },
+    "Rating": {
+      "type": "decimal"
+    },
+    "Link": {
+      "type": "string"
+    },
+    "Stars": {
+      "type": "integer"
+    }
+  }
+}

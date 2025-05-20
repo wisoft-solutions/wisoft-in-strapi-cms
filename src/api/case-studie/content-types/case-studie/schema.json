@@ -4,15 +4,43 @@
   "info": {
     "singularName": "case-studie",
     "pluralName": "case-studies",
-    "displayName": "Case Studies"
+    "displayName": "Case Studies",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
+    "Title": {
       "type": "string"
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "Title"
+    },
+    "CoverImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Excerpt": {
+      "type": "text"
+    },
+    "FullContent": {
+      "type": "richtext"
+    },
+    "ReadMoreLink": {
+      "type": "string"
+    },
+    "Featured": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

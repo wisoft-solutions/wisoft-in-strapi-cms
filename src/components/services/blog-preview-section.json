@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_services_blog_preview_sections",
+  "info": {
+    "displayName": "BlogPreviewSection"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "ButtonText": {
+      "type": "string"
+    },
+    "ButtonLink": {
+      "type": "string"
+    }
+  }
+}

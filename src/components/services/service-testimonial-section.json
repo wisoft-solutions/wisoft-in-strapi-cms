@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_services_service_testimonial_sections",
+  "info": {
+    "displayName": "ServiceTestimonialSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "SectionTitle": {
+      "type": "string"
+    },
+    "testimonials": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::testimonial.testimonial"
+    },
+    "ExternalRating": {
+      "type": "component",
+      "repeatable": false,
+      "component": "services.external-review-card"
+    }
+  }
+}

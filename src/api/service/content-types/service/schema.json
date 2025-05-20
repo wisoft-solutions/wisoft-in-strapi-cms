@@ -4,15 +4,30 @@
   "info": {
     "singularName": "service",
     "pluralName": "services",
-    "displayName": "Services"
+    "displayName": "Services",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
+    "Title": {
       "type": "string"
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "Title"
+    },
+    "HeroSection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "services.hero-section"
+    },
+    "InsightSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "services.insight-section"
     }
   }
 }
