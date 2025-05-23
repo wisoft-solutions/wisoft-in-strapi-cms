@@ -21,13 +21,53 @@
     },
     "HeroSection": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "services.hero-section"
     },
     "InsightSection": {
       "type": "component",
       "repeatable": false,
       "component": "services.insight-section"
+    },
+    "StatsSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "services.stats-section"
+    },
+    "ServiceAccordion": {
+      "type": "component",
+      "repeatable": false,
+      "component": "services.service-accordion"
+    },
+    "ExperienceBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "services.experience-banner"
+    },
+    "DifferentiatorSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "services.differentiator-section"
+    },
+    "CaseStudySection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "services.case-study-section"
+    },
+    "ServiceTestimonials": {
+      "type": "component",
+      "repeatable": false,
+      "component": "services.service-testimonial-section"
+    },
+    "BlogPreviewSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "services.blog-preview-section"
+    },
+    "FaqSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "services.faq-section"
     }
   }
 }
