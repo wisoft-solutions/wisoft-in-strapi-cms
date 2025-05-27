@@ -3,10 +3,10 @@
 const { createCoreController } = require('@strapi/strapi').factories;
 
 module.exports = createCoreController('api::service.service', ({ strapi }) => ({
+
   async find(ctx) {
+
     const { slug } = ctx.query;
-
-
 
     // If slug param is present, search by slug
     if (slug) {
@@ -30,4 +30,5 @@ module.exports = createCoreController('api::service.service', ({ strapi }) => ({
     // Default: return all services
     return super.find(ctx);
   }
+  
 }));
