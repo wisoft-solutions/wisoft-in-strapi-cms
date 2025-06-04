@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_home_page_why_chooseuses",
+  "info": {
+    "displayName": "WhyChooseUs",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "SectionTitle": {
+      "type": "string"
+    },
+    "Reasons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home-page.reason-card"
+    }
+  }
+}

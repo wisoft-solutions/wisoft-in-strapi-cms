@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_home_page_clients",
+  "info": {
+    "displayName": "Clients"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    }
+  }
+}

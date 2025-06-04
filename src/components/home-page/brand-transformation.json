@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_home_page_brand_transformations",
+  "info": {
+    "displayName": "BrandTransformation"
+  },
+  "options": {},
+  "attributes": {
+    "YearsText": {
+      "type": "string"
+    },
+    "Headline": {
+      "type": "text"
+    },
+    "BackgroundImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "PartnerLogos": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

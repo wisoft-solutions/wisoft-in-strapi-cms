@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_home_page_services_items",
+  "info": {
+    "displayName": "ServicesItem",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "serviceItem": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::service.service"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "FeaturedImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ButtonText": {
+      "type": "string"
+    },
+    "ButtonLink": {
+      "type": "text"
+    }
+  }
+}

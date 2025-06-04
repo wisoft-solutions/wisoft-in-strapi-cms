@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_home_page_hero_sections",
+  "info": {
+    "displayName": "HeroSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "text"
+    },
+    "CTALabel": {
+      "type": "string"
+    },
+    "CTAURL": {
+      "type": "string"
+    },
+    "BackgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Statistics": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home-page.statistics"
+    }
+  }
+}

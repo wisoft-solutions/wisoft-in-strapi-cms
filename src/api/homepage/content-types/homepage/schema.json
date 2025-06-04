@@ -4,15 +4,58 @@
   "info": {
     "singularName": "homepage",
     "pluralName": "homepages",
-    "displayName": "Homepage"
+    "displayName": "Homepage",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
-      "type": "string"
+    "HeroSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.hero-section"
+    },
+    "Work": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.works"
+    },
+    "Services": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.services"
+    },
+    "AboutUs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.about-us"
+    },
+    "whyChooseUs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.why-choose-us"
+    },
+    "BrandTransformations": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.brand-transformation"
+    },
+    "Testimonials": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.testimonials"
+    },
+    "ImpactHighlights": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.impact-highlight"
+    },
+    "CTATeamSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.team-ct-asection"
     }
   }
 }

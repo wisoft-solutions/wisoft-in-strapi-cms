@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_home_page_reason_cards",
+  "info": {
+    "displayName": "ReasonCard"
+  },
+  "options": {},
+  "attributes": {
+    "Icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

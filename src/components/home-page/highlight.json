@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_home_page_highlights",
+  "info": {
+    "displayName": "highlight"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    }
+  }
+}

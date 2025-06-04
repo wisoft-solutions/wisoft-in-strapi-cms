@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_home_page_works",
+  "info": {
+    "displayName": "Works"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    }
+  }
+}

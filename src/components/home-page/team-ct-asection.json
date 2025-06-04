@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_home_page_team_ct_asections",
+  "info": {
+    "displayName": "TeamCTAsection"
+  },
+  "options": {},
+  "attributes": {
+    "Headline": {
+      "type": "text"
+    },
+    "CTALabel": {
+      "type": "string"
+    },
+    "CTAURL": {
+      "type": "text"
+    },
+    "Illustration": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
