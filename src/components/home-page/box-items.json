@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_home_page_box_items",
+  "info": {
+    "displayName": "BoxItems"
+  },
+  "options": {},
+  "attributes": {
+    "BoxValueOne": {
+      "type": "string"
+    },
+    "BoxDescriptionOne": {
+      "type": "richtext"
+    },
+    "BoxValueTwo": {
+      "type": "string"
+    },
+    "BoxDescriptionTwo": {
+      "type": "richtext"
+    }
+  }
+}
