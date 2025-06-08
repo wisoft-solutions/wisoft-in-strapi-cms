@@ -56,6 +56,11 @@
       "type": "component",
       "repeatable": false,
       "component": "home-page.team-ct-asection"
+    },
+    "FaqSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.faq-section"
     }
   }
 }

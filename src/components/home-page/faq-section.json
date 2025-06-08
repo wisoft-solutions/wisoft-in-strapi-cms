@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_home_page_faq_sections",
+  "info": {
+    "displayName": "FaqSection"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "FAQs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "services.faq-item"
+    },
+    "FeaturedImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
