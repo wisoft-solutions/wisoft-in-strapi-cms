@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_pages_contact_office_locations",
+  "info": {
+    "displayName": "ContactOfficeLocations",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "mapLink": {
+      "type": "text"
+    }
+  }
+}

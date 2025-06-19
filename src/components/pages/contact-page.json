@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_pages_contact_pages",
+  "info": {
+    "displayName": "ContactPage",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ContactBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pages.contact-banner"
+    },
+    "OfficeLocations": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pages.contact-office-locations"
+    }
+  }
+}

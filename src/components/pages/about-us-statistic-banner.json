@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_pages_about_us_statistic_banners",
+  "info": {
+    "displayName": "AboutUsStatisticBanner"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "highlightedStat": {
+      "type": "string"
+    },
+    "subText": {
+      "type": "string"
+    }
+  }
+}

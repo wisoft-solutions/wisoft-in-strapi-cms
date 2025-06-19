@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_pages_about_us_pages",
+  "info": {
+    "displayName": "AboutUsPage"
+  },
+  "options": {},
+  "attributes": {
+    "Banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pages.hero-section"
+    },
+    "HighlightsSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pages.about-us-highlight-section"
+    },
+    "MissionSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pages.about-us-mission-statement"
+    },
+    "Statistics": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pages.about-us-statistic-banner"
+    }
+  }
+}

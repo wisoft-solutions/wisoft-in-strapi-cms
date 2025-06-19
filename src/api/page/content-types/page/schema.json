@@ -4,7 +4,8 @@
   "info": {
     "singularName": "page",
     "pluralName": "pages",
-    "displayName": "Pages"
+    "displayName": "Pages",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,6 +14,18 @@
   "attributes": {
     "title": {
       "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "pages.contact-page",
+        "seo.seo-fields",
+        "pages.about-us-page"
+      ]
     }
   }
 }

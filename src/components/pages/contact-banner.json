@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_pages_contact_banners",
+  "info": {
+    "displayName": "ContactBanner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "BannerText": {
+      "type": "string"
+    },
+    "BannerDescription": {
+      "type": "text"
+    },
+    "coverImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ctaText": {
+      "type": "string"
+    },
+    "ctaLink": {
+      "type": "text"
+    },
+    "formTitle": {
+      "type": "string"
+    }
+  }
+}
