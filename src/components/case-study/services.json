@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_case_study_services",
+  "info": {
+    "displayName": "Services",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Items": {
+      "type": "string"
+    }
+  }
+}
