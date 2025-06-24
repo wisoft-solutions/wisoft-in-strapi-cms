@@ -1,7 +1,8 @@
 {
   "collectionName": "components_seo_seo_fields",
   "info": {
-    "displayName": "SEO Fields"
+    "displayName": "SEO Fields",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -24,14 +25,15 @@
       "type": "text"
     },
     "OGImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "SearchEnginesIndexing": {
       "type": "boolean",

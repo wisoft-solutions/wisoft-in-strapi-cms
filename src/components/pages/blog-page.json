@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_pages_blog_pages",
+  "info": {
+    "displayName": "BlogPage"
+  },
+  "options": {},
+  "attributes": {
+    "Content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pages.blog-banner"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_pages_blog_banners",
+  "info": {
+    "displayName": "BlogBanner"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "text"
+    }
+  }
+}
