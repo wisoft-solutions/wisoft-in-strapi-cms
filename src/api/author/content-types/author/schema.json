@@ -15,7 +15,11 @@
     "Name": {
       "type": "string"
     },
-    "Bio": {
+    "slug": {
+      "type": "uid",
+      "targetField": "Name"
+    },
+    "About": {
       "type": "richtext"
     },
     "Avatar": {
@@ -28,6 +32,9 @@
         "videos",
         "audios"
       ]
+    },
+    "Designation": {
+      "type": "string"
     }
   }
 }

@@ -25,7 +25,8 @@
         "pages.contact-page",
         "seo.seo-fields",
         "pages.about-us-page",
-        "pages.blog-page"
+        "pages.blog-page",
+        "pages.banner"
       ]
     }
   }
