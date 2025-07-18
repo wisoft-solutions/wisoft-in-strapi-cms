@@ -68,6 +68,11 @@
       "type": "component",
       "repeatable": false,
       "component": "services.faq-section"
+    },
+    "AdvantagesSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "services.wisoft-advanatges"
     }
   }
 }

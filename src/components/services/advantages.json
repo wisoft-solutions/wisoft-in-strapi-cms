@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_services_advantages",
+  "info": {
+    "displayName": "Advantages"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    }
+  }
+}

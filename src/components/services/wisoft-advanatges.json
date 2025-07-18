@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_services_wisoft_advanatges",
+  "info": {
+    "displayName": "WisoftAdvanatges",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "columnLayout": {
+      "type": "enumeration",
+      "enum": [
+        "one-column",
+        "two-column"
+      ]
+    },
+    "advantages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "services.advantages"
+    }
+  }
+}
