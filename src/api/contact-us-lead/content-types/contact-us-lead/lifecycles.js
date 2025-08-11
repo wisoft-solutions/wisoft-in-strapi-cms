@@ -56,7 +56,7 @@ module.exports = {
               Last_Name: result.LastName,
               Email: result.Email,
               Mobile: result.Phone,
-              Description: 'Subscribed',
+              Description: result.Message,
               Lead_Source: 'Website',
             },
           ],
