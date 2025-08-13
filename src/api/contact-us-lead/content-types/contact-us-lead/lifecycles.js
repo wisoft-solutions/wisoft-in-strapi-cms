@@ -56,7 +56,7 @@ module.exports = {
               Last_Name: result.LastName,
               Email: result.Email,
               Mobile: result.Phone,
-              Description: 'Subscribed',
+              Description: result.Message,
               Lead_Source: 'Website',
             },
           ],
@@ -64,6 +64,8 @@ module.exports = {
       });
 
       const data = await response.json();
+
+      console.log('After Create Hook Triggered:data', data);
 
       if (!response.ok) {
         console.error('Error creating lead in Zoho:', data);
