@@ -11,10 +11,12 @@ module.exports = createCoreController('api::blog.blog', ({ strapi }) => ({
   async find(ctx) {
     const { slug, id, populate = '*' } = ctx.query;
 
+    console.log('Find method called with query:', ctx.query);
+
     // If slug is provided, fetch by slug
     if (slug) {
       const entity = await strapi.entityService.findMany('api::blog.blog', {
-        filters: { slug: { $eq: slug } },
+        filters: { Slug: { $eq: slug } },
         populate,
       });
 
