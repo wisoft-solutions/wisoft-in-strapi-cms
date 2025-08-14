@@ -23,30 +23,33 @@
       "type": "string"
     },
     "ProfileImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "Testimonial": {
       "type": "richtext"
     },
     "YouTubeURL": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "VideoThumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "Featured": {
       "type": "boolean",

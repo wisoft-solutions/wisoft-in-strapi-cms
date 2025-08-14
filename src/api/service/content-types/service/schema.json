@@ -73,6 +73,11 @@
       "type": "component",
       "repeatable": false,
       "component": "services.wisoft-advanatges"
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo-fields"
     }
   }
 }

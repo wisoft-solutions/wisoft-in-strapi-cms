@@ -1,5 +1,4 @@
 {
-  "kind": "collectionType",
   "collectionName": "pages",
   "info": {
     "singularName": "page",
@@ -30,5 +29,6 @@
         "pages.content"
       ]
     }
-  }
+  },
+  "kind": "collectionType"
 }

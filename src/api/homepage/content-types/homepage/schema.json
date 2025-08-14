@@ -61,6 +61,11 @@
       "type": "component",
       "repeatable": false,
       "component": "home-page.faq-section"
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo-fields"
     }
   }
 }

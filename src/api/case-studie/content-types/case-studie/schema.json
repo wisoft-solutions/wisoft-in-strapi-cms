@@ -22,7 +22,7 @@
     "CoverImage": {
       "type": "media",
       "multiple": false,
-      "required": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
@@ -31,10 +31,12 @@
       ]
     },
     "Excerpt": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "FullContent": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "ReadMoreLink": {
       "type": "string"
@@ -49,6 +51,17 @@
       "regex": "^([A-Za-z ]+)(,[A-Za-z ]+)*$"
     },
     "GalleryImages": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "CoverVideoPosterImage": {
       "allowedTypes": [
         "images",
         "files",
@@ -56,7 +69,7 @@
         "audios"
       ],
       "type": "media",
-      "multiple": true
+      "multiple": false
     }
   }
 }

@@ -35,6 +35,11 @@
     },
     "Designation": {
       "type": "string"
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo-fields"
     }
   }
 }
