@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_services_blogs",
+  "info": {
+    "displayName": "Blogs"
+  },
+  "options": {},
+  "attributes": {
+    "blogs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::blog.blog"
+    }
+  }
+}

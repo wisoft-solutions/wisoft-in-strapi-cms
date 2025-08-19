@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_clients_section_clients",
+  "info": {
+    "displayName": "Clients"
+  },
+  "options": {},
+  "attributes": {
+    "clients": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::client.client"
+    }
+  }
+}
