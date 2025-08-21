@@ -10,22 +10,22 @@ module.exports = createCoreController('api::homepage.homepage', ({ strapi }) => 
   async bundle(ctx) {
 
     const homepage = await strapi.entityService.findMany('api::homepage.homepage', {
-      populate: '*',
+      populate: "deep",
     });
 
 
     const clients = await strapi.entityService.findMany('api::client.client', {
-      populate: '*',
+      populate: "deep",
     });
 
 
     const caseStudies = await strapi.entityService.findMany('api::case-studie.case-studie', {
-      populate: '*',
+      populate: "deep",
     });
 
 
     const blogs = await strapi.entityService.findMany('api::blog.blog', {
-      populate: '*',
+      populate: "deep",
     });
 
     return {
