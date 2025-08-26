@@ -1,4 +1,3 @@
-
 const fetch = require('node-fetch');
 
 const getAccessToken = async () => {
@@ -27,21 +26,31 @@ const getAccessToken = async () => {
 
 module.exports = {
   async beforeCreate(event) {
-    const { data } = event.params;
+    const {
+      data
+    } = event.params;
     console.log('Before Create Hook Triggered:', data);
   },
 
   async afterCreate(event) {
-    const { result } = event;
+    const {
+      result
+    } = event;
+
+   
 
     try {
-      
+
+       const {
+      formdata
+    } = event.params;
+
       const accessToken = await getAccessToken();
 
       if (!accessToken) {
         throw new Error('Failed to get access token');
       }
-    
+
       const response = await fetch('https://www.zohoapis.com/crm/v2/Leads', {
         method: 'POST',
         headers: {
@@ -50,17 +59,22 @@ module.exports = {
           'Accept': 'application/json',
         },
         body: JSON.stringify({
-          data: [
-            {
-              First_Name: result.FirstName,
-              Last_Name: result.LastName,
-              Email: result.Email,
-              Mobile: result.Phone,
-              Description: result.Message,
-              Lead_Source: 'Website',
-              Lead_Origin: 'India',
-            },
-          ],
+          data: [{
+            First_Name: result.FirstName,
+            Last_Name: result.LastName,
+            Email: result.Email,
+            Mobile: result.Phone,
+            Description: result.Message,
+            Lead_Source: 'Website',
+            Lead_Origin: 'India',
+            utm_source: formdata.utm_source,
+            utm_medium: formdata.utm_medium,
+            utm_campaign: formdata.utm_campaign,
+            utm_term: formdata.utm_term,
+            utm_content: formdata.utm_content,
+            gclid: formdata.gclid,
+            referrer: formdata.referrer,
+          }, ],
         }),
       });
 
@@ -74,7 +88,7 @@ module.exports = {
     } catch (error) {
       console.error('Error during afterCreate lifecycle hook:', error);
     }
-    
+
     console.log('After Create Hook Triggered:', result);
   },
 };
