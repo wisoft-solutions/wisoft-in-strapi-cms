@@ -45,6 +45,8 @@ module.exports = {
       formdata
     } = event.params;
 
+    console.log('formdata', formdata);
+
       const accessToken = await getAccessToken();
 
       if (!accessToken) {
