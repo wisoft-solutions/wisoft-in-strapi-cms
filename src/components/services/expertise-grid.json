@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_services_expertise_grids",
+  "info": {
+    "displayName": "ExpertiseGrid",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "mainTitle": {
+      "type": "string"
+    },
+    "ExpertiseGrid": {
+      "type": "component",
+      "repeatable": true,
+      "component": "services.expertise-grid-item"
+    }
+  }
+}

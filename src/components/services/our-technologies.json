@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_services_our_technologies",
+  "info": {
+    "displayName": "OurTechnologies"
+  },
+  "options": {},
+  "attributes": {
+    "MainTitle": {
+      "type": "string"
+    },
+    "frameworks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "services.framework-item"
+    }
+  }
+}

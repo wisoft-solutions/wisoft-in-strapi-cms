@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_services_expertise_items",
+  "info": {
+    "displayName": "ExpertiseItems"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "href": {
+      "type": "text"
+    }
+  }
+}

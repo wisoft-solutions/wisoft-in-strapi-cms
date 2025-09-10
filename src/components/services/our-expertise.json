@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_services_our_expertises",
+  "info": {
+    "displayName": "OurExpertise",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "SectionTitle": {
+      "type": "string"
+    },
+    "ExpertiseList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "services.expertise-items"
+    }
+  }
+}

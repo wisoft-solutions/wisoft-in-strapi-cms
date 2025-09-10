@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_services_process_sections",
+  "info": {
+    "displayName": "ProcessSection"
+  },
+  "options": {},
+  "attributes": {
+    "mainTitle": {
+      "type": "string"
+    },
+    "ProcessSteps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "process-step.process-steps"
+    },
+    "FeaturedImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

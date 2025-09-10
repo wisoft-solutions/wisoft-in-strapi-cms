@@ -78,6 +78,26 @@
       "type": "component",
       "repeatable": false,
       "component": "seo.seo-fields"
+    },
+    "OurExpertise": {
+      "type": "component",
+      "repeatable": false,
+      "component": "services.our-expertise"
+    },
+    "frameworksSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "services.frameworks"
+    },
+    "ExpertiseSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "services.expertise-grid"
+    },
+    "ProcessStep": {
+      "type": "component",
+      "repeatable": false,
+      "component": "services.process-section"
     }
   }
 }

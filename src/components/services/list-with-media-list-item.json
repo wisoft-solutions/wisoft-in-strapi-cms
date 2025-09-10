@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_services_list_with_media_list_items",
+  "info": {
+    "displayName": "ListWithMediaListItem"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    }
+  }
+}

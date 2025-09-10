@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_services_list_with_medias",
+  "info": {
+    "displayName": "ListWithMedia"
+  },
+  "options": {},
+  "attributes": {
+    "mainTitle": {
+      "type": "string"
+    },
+    "ListWithMediaList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "services.list-with-media-list-item"
+    },
+    "FeaturedImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

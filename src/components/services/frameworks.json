@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_services_frameworks",
+  "info": {
+    "displayName": "Frameworks"
+  },
+  "options": {},
+  "attributes": {
+    "MainTitle": {
+      "type": "string"
+    },
+    "Frameworks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "services.framework-item"
+    }
+  }
+}

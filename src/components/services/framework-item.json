@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_services_framework_items",
+  "info": {
+    "displayName": "FrameworkItem"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "Icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
