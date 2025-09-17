@@ -25,7 +25,10 @@ module.exports = createCoreController('api::homepage.homepage', ({ strapi }) => 
 
 
     const blogs = await strapi.entityService.findMany('api::blog.blog', {
-      populate: "deep",
+      sort: [{
+        createdAt: 'desc'
+      }],
+      populate: 'deep',
     });
 
     return {
