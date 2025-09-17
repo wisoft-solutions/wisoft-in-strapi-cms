@@ -38,6 +38,9 @@
     "SearchEnginesIndexing": {
       "type": "boolean",
       "default": true
+    },
+    "hreflangTags": {
+      "type": "text"
     }
   }
 }
