@@ -4,9 +4,13 @@
  * homepage controller
  */
 
-const { createCoreController } = require('@strapi/strapi').factories;
+const {
+  createCoreController
+} = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::homepage.homepage', ({ strapi }) => ({
+module.exports = createCoreController('api::homepage.homepage', ({
+  strapi
+}) => ({
   async bundle(ctx) {
 
     const homepage = await strapi.entityService.findMany('api::homepage.homepage', {
@@ -25,8 +29,12 @@ module.exports = createCoreController('api::homepage.homepage', ({ strapi }) => 
 
 
     const blogs = await strapi.entityService.findMany('api::blog.blog', {
-      populate: "deep",
+      sort: [{
+        createdAt: 'desc'
+      }],
+      populate: 'deep',
     });
+
 
     return {
       homepage: homepage,
@@ -36,4 +44,3 @@ module.exports = createCoreController('api::homepage.homepage', ({ strapi }) => 
     };
   },
 }));
-
